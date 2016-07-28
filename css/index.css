@@ -1,0 +1,71 @@
+body{
+  margin:0;
+  padding: 10px 0px 0px 0px;
+
+}
+
+
+#mainnav  {
+  width=100%;
+  margin:0;
+  padding: 0;
+  background: rgba(0,0,0,0.9);
+  text-align: center;
+  height:auto;
+}
+
+#mainnav ul{
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px;
+  padding-bottom: 10px;
+  margin:0;
+  overflow: hidden;
+
+}
+
+#mainnav ul li{
+  float: left;
+}
+
+
+#mainnav ul li a  {
+  display: block;
+  padding: 10px;
+  font-family: roboto;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+#mainnav ul li a:hover{
+  background: rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 5px 2px rgb(0,0,0);
+
+}
+
+#dropp {
+  display: block;
+}
+
+#drop {
+  position: absolute;
+  display: none;
+}
+
+#drop a {
+  color: red;
+  display: block;
+}
+
+#dropp:hover #drop{
+  display: block;
+  background: rgba(0,0,0,0.85);
+}
+
+
+@font-face {
+  font-family: roboto;
+  src: url(../font/Roboto-Regular.ttf);
+}
